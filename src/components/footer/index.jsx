@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Footer() {
   return (
@@ -7,9 +7,10 @@ function Footer() {
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <h3 class="text-white mb-4">Get In Touch</h3>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <p class="mb-1"><i class="fa fa-map-marker-alt me-3"></i>No. 20, 26, Velunaicker Street, <span class='second-address'> Sholinganallur, Chennai, TamilNadu  </span></p>
+                        <p class='second-address'>600119.</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 44 42181159,<br /> <span class='second-contact'> +91 44 42181160 </span> </p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>sreeiyappaschool1@gmail.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -61,13 +62,13 @@ function Footer() {
             <div class="container">
                 <div class="copyright">
                     <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        {/* <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
 							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                             <br/>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
+                        </div> */}
+                        <div class="col-md-6 text-center text-md-end ">
+                            <div class="footer-menu " style={{display: 'flex'}}>
                                 <a href="">Home</a>
                                 <a href="">Cookies</a>
                                 <a href="">Help</a>

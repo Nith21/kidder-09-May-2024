@@ -247,7 +247,7 @@ School education every year.
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="classes-item">
                             <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                                <img class="img-fluid rounded-circle" src="img/classes-1.jpg" alt=""/>
+                                <img class="img-fluid rounded-circle" style={{height: '270px', width: '270px', borderRadius: '50%', }} src="image/activity1.jpg" alt=""/>
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
                                 <a class="d-block text-center h3 mt-3 mb-4" href="">Art & Drawing</a>
@@ -287,7 +287,7 @@ School education every year.
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="classes-item">
                             <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                                <img class="img-fluid rounded-circle" src="img/classes-2.jpg" alt=""/>
+                                <img class="img-fluid rounded-circle" src="image/activity2.jpg" alt="" style={{height: '270px', width: '270px', borderRadius: '50%'}} />
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
                                 <a class="d-block text-center h3 mt-3 mb-4" href="">Color Management</a>
@@ -493,14 +493,21 @@ School education every year.
         
 
         {/* <!-- Team Start --> */}
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth:"600px"}}>
-                    <h1 class="mb-3">Popular Teachers</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit
-                        eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <div class="container-xxl py-5  text-white">
+            <div class="container bg-primary">
+                <div class=" mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth:"600px"}}>
+                    <h1 class="mb-3 text-white"> Discipline and Character Building!</h1>
+                    <h3 className='text-white'>Discipline and character building are the prime objectives of the school which can be experienced by:</h3>
+                    <p>&nbsp;</p>
+                    <ul>
+                        <li>Self seating arrangement during their lunch time.</li>
+                        <li>Washing hands before and after lunch.</li>
+                        <li>Standing in a queue to board the Van, to take their bicycle and to walk to their homes.</li>
+                        <li>Playing in turns in their play area.</li>
+                        <li>Proper Concentration during class hours.</li>
+                    </ul>
                 </div>
-                <div class="row g-4">
+            {/*    <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item position-relative">
                             <img class="img-fluid rounded-circle w-75" src="img/team-1.jpg" alt=""/>
@@ -543,7 +550,7 @@ School education every year.
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         {/* <!-- Team End --> */}
